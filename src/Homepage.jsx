@@ -4,7 +4,7 @@ import EmployeeList from "./components/EmployeeList";
 
 export default function Homepage() {
   return (
-    <main>
+    <main className="homepage">
       <Header />
       <SearchBar />
       <EmployeeList />
