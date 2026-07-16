@@ -1,4 +1,7 @@
+import employeeAvatar from "../assets/employee-avatar.png";
 import EmployeeListItem from "./EmployeeListItem";
+
+
 
 const employees = [
   {
@@ -35,6 +38,7 @@ export default function EmployeeList() {
           key={employee.name}
           name={employee.name}
           title={employee.title}
+          image={employeeAvatar}
         />
       ))}
     </section>
