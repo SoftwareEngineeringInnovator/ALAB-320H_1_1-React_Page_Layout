@@ -27,3 +27,34 @@
   font-size: 16px;
   box-sizing: border-box;
 }
+
+.employee-list-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 16px;
+  border-bottom: 1px solid darkgray;
+}
+
+.employee-list-item:last-child {
+  border-bottom: none;
+}
+
+.employee-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.employee-information h2 {
+  margin: 0 0 6px;
+  font-size: 19px;
+}
+
+.employee-information p {
+  margin: 0;
+  font-size: 15px;
+  color: lightgray;
+}
