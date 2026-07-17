@@ -86,12 +86,12 @@ App
 
 The directory includes:
 
-- James King — President and CEO
-- Julie Taylor — VP of Marketing
-- Eugene Lee — CFO
-- John Williams — VP of Engineering
-- Ray Moore — VP of Sales
-- Paul Jones — QA Manager
+- James King - President and CEO
+- Julie Taylor - VP of Marketing
+- Eugene Lee - CFO
+- John Williams - VP of Engineering
+- Ray Moore - VP of Sales
+- Paul Jones - QA Manager
 
 Each employee has an individual profile image stored locally inside the `src/assets` folder.
 
